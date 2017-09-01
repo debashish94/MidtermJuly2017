@@ -9,11 +9,19 @@ public class Pattern {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
-		
+		int current = 100;
+		int currentDiff = 1;
+		int nextChange = current - currentDiff * 10;
 
-		
-		
-		
+
+		do{
+			System.out.print(current+ " ");
+			if(current - currentDiff < nextChange) {
+				currentDiff++;
+				nextChange = nextChange - currentDiff * 10;
+			}
+			current -= currentDiff;
+		}while(current >= 0);
 
 	}
 }

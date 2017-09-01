@@ -1,24 +1,71 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
+To store and organize information.
+
 What are the various operations that can be performed on different Data Structures?
+Traversing
+Searching
+Insertion
+Deletion
+Sorting
+Merging
+
 List out the areas in which data structures are applied extensively?
+Compiler Design, Operating System, Database Management System, Statistical analysis package, Numerical Analysis, Graphics, Artificial Intelligence, Simulation
+
 what is an Array?
+An array is a container object that holds a fixed number of values of a single type.
+
 what is the difference between the Array and ArrayList?
+Array is fixed size, ArrayList is dynamic.
+
 what is LinkedList?
+A linked list is a linear data structure where each element is a separate object.
+
 How is an Array different from Linked List?
+Array is a collection of elements having same data type with common name.
+Linked list is an ordered collection of elements which are connected by links/pointers.
+
 what is queue?
+A queue is a linear list for which all insertions are made at one end of the list
+
 what is stack?
+A LIFO ordered list of objects.
+
 what is FIFO and LIFO?
+FIFO - First in First out, LIFO - Last in First out
+
 what is the order of complexity?
+N, O(N), O(N^2), O(N^3), O(N*log(N))
+
 what is the best case to search an element from an array?
+irst element of the list.
+
 what is the worst case to search an element from an array?
+Last element of the list.
+
 what is tree in data structure?
+A tree is a data structure made up of nodes or vertices and edges without having any cycle.
+
 what is graph in data structure?
+Consists of finite set of vertices or nodes together with a set of unordered pairs of these vertices
+for an undirected graph or a set of ordered pairs for a directed graph.
+
 what is the difference between the HashTable and HashMap?
+HashMap is non synchronized. It is not-thread safe and can't be shared between many threads without proper synchronization code.
+Hashtable is synchronized. It is thread-safe and can be shared with many threads.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+RDBMS - Array
+Network data model - Graph
+Hierarchical data model - Trees
+
 How HashMap works in java?
+HashMap provides put(key, value) for storing and get(key) method for retrieving values from HashMap.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+
 What are the different ways of copying an array into another array?
 What is difference between an array and a linked list?
 What is DFS and BFS?

@@ -149,7 +149,7 @@ public class ConnectDB {
         return data;
     }
 
-    public void InsertDataFromArrayListToMySql(List<Object> list,String tableName, String columnName)
+    public void InsertDataFromArrayListToMySql(ArrayList<Integer> list, String tableName, String columnName)
     {
         try {
             connectToMySql();
