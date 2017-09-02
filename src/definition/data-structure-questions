@@ -65,14 +65,30 @@ How HashMap works in java?
 HashMap provides put(key, value) for storing and get(key) method for retrieving values from HashMap.
 
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+An object of this class is thrown when code accesses an array with an illegal index.
 
 What are the different ways of copying an array into another array?
+First create the new array then copy the first array and store the values into the new array.
+
 What is difference between an array and a linked list?
+Array is a collection of elements having same data type with common name.
+Linked list is an ordered collection of elements which are connected by links/pointers.
+
 What is DFS and BFS?
+Depth First Search and Breadth First Search
+
 What is Recursion?
+A method calls itself to solve some problem
+
 What are linear and non linear data Structures?
+Linear data Structure: Arrays, Linked Lists
+Non linear data Structure: Trees, Graphs
+
 What is Big-(O)-notation?
+Big O notation is used in Computer Science to describe the performance or complexity of an algorithm.
+
 Outlined different kind of sorting algorithm with time complexity?
+QuickSort- O(nlog(n)) , MergeSort- O(nlog(n)), HeapSort- O(nlog(n)), InsertionSort- O(n^2), SelectionSort-O(n^2)
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
